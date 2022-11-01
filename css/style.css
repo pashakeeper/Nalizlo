@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Inter';
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.header {
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top:  0;
+	width: 100%;
+}
+.header .container, .header .row {
+	height: 100%;
+}
+.nav.main-menu {
+	display: flex;
+	align-items: center;
+}
+.main-menu li {
+	margin: 0 20px;
+}
+.main-menu li a{
+	color: #fff;
+	font-weight: 400;
+	font-size: 15px;
+}
+.main_section {
+	background: radial-gradient(41.27% 79.61% at 24.38% -8.01%, #3E4043 1.35%, #3E4043 12.45%, rgba(60, 62, 65, 0.931595) 20.21%, rgba(57, 59, 62, 0.866797) 26.02%, rgba(54, 56, 59, 0.768303) 36.03%, rgba(48, 50, 54, 0.612607) 51%, rgba(45, 47, 50, 0.505808) 61.05%, rgba(41, 43, 47, 0.403057) 72.34%, rgba(37, 39, 43, 0.279583) 83.02%, rgba(27, 29, 33, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0F1011;
+	height: 100vh;
+}
+.main_section .container , .main_section .row {
+	height: 100%;
+}
